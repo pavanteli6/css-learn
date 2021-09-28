@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+.profile-name{
+    font-family: Playball;
+    font-size: 45px;
+    color: #99035d;
+    margin: 0;
+}
+
+.profile-images{
+    float:left;
+    margin:1rem;
+    width: 10%
+}
+
+.profile-info{
+    float: left;
+}
+
+.role{
+    font-family: "Nixie One";
+    color: #003e85;
+    margin:0
+}
+
+.location{
+    font-family: "Nixie One";
+    color: #850085;
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+
+.section{
+    font-family: "Nixie One";
+    color: #b80000;
+    clear:both
+}
+
+.skill{
+    font-family: "Kufam";
+    font-size: 12px
+}
+
+.info{
+    font-family: "Kufam";
+    font-size: 12px;
+    font-weight: bold;
+    color: #777
+}
+.detail{
+    font-family: "kufam";
+    font-size: 12px;
+    color: #999
+}
+.about{
+    width: 50%;
+    clear: left;
+    float: left;
+    padding-right: 2rem;
+    border-right:1px solid grey; 
+}
+.skills{
+    width:20%;
+    float: left;
+    padding-left: 2rem
+}

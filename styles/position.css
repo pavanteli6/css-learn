@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid red;
+}
+.item{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    position: static;
+/*
+    top: 2rem;
+    left: 2rem
+*/
+}
+
+/*
+.item2{
+    position: relative;
+    top: 2rem;
+    
+}
+*/
+.item3{
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+}
+.item1{
+    background-color: blue;
+    width: 100%;
+    color: white;
+    position: sticky;
+    top: 0rem;
+    left: 0rem;
+}

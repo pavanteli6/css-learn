@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Signup - Strat Hawk</title>
+        <link rel = "stylesheet" href = "styles/styles.css">
+    </head>
+    <body>
+        <div class="nav">
+            <h1 class="logo">Strat Hawk</h1>
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="bookings.html">MyBooking</a>
+            <a class="nav-item" href="destinations.html">Destinations</a>
+            <a class="nav-item" href="login.html">Login</a>
+            <a class="nav-item" href="signup.html">Signup</a>
+        </div>
+        
+    <div class="signup-form-container">
+        <h2 class="heading">Signup</h2>    
+        <form action="login.html">
+    <div class="signup-element-container">
+        <div class="form-group">
+            <label class="label" >Title</label>
+            <input type="radio" name="title" value="mister" id="mister" required>
+            <lable class="label-inline" for="mister">Mr.</lable>
+            <input type="radio" name="title" value="missus" id="missus">
+            <lable class="label-inline" for="missus">Mrs.</lable>
+        </div>
+        <div></div>
+        <div class="form-group">    
+            <label class="label" for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required>
+        </div>
+        <div class="form-group">
+            <label class="label" for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="LastName" required>
+        </div>
+            
+
+        <div class="form-group">
+            <label class="label" for="email">Email</label>
+            <input type="text" name="email" id="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+            required title="xxxx@yyyy.zzz format">
+        </div>
+            
+        <div class="form-group">
+        <label class="label" for="mobileNo">Mobile No</label>
+            <input type="text" name="mobileNumber" id="mobileNumber" pattern="[0-9]{10}" required>
+        </div>
+         
+            
+        <div class="form-group">
+            <label class="label" for="password">Password</label>
+            <input type="password" name="password" id="password" 
+            pattern="(?=.*\d)(?=.*[a z])(?=.*[A-Z]).{8,}" 
+            title= "A number, 1 uppercase,1 lowercase with 8 or more characters" required>
+        </div>
+        
+        <div class="form-group">
+        <label class="label" for="confirmPassword">Confirm Password</label>
+            <input type="password" name="confirmPassword" id="confirmPassword"
+            title= "A number, 1 uppercase,1 lowercase with 8 or more characters" required>
+        </div>
+            
+        <div class="form-group">
+            <label class="label" for="language">Preffered Language</label>
+            <select class="form-input" name="language" id="Language">
+                <option>Chinese</option>
+                <option>Spanish</option>
+                <option>English</option>
+                <option>Portuguese</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <input type="checkbox" name="newsLetter" id="newsLetter">
+            <label class="label-inline" for="newsletter">Receive Newsletter</label>
+        </div>
+        </div>
+        <div class="form-group">
+                <input class="btn" type="submit" value="register">
+        </div>
+    </form>
+    </div>
+    </body>
+</html>
